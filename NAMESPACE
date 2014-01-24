@@ -1,1 +1,5 @@
 export(ChaoShared)
+export(print.BasicFun)
+export(print.BasicFun.Sam)
+S3method(print,BasicFun)
+S3method(print,print.BasicFun.Sam)
