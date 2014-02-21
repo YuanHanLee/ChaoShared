@@ -5,8 +5,7 @@ Version: 1.0
 Date: 2014-01-18
 Author: Y.H. Lee ; K.S. Tseng ; Anne Chao
 Maintainer: Anne Chao <chao@stat.nthu.edu.tw>
-Description: The purpose of this R package ChaoShared estimates for the number 
-  of shared species in two communities based on two sampling schemes.
+Description: The purpose of this R package ChaoShared estimates for the number of shared species in two communities based on two sampling schemes.
 License: GPL (>= 2)
 URL: http://chao.stat.nthu.edu.tw/blog/
 LazyLoad: yes
