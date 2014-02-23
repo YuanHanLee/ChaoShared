@@ -1,5 +1,6 @@
 export(ChaoShared)
 export(print.BasicFun)
+export(ChaoShare4Shimy)
 export(print.BasicFun.Sam)
 S3method(print,BasicFun)
 S3method(print,BasicFun.Sam)
