@@ -42,7 +42,7 @@ function(x1, x2, B) {
     ((n1_rare - 1) * (n2_rare - 1) * T10 * T01 * T11) - 
     S12_0 * T11 / T10 / T01 - CCV_1 - CCV_2
   out <- list(n1=n1, n2=n2, D1=D1, D2=D2, D12=D12, B=B, f11=f11, f1.plus=f1.plus,
-              f1.plus=f1.plus, fplus.1=fplus.1, f2.plus=f2.plus, fplus.2=fplus.2,
+              fplus.1=fplus.1, f2.plus=f2.plus, fplus.2=fplus.2,
               n1_rare=n1_rare, n2_rare=n2_rare, D12_rare=D12_rare, 
               C12_rare=C12_rare, CCV_1=CCV_1, CCV_2=CCV_2, CCV_12=CCV_12)
   class(out) <- "BasicFun"
