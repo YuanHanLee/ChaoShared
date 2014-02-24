@@ -1,5 +1,5 @@
 print.BasicFun <-
-function(x) {
+function(x, ...) {
   #   cat("(1)  BASIC DATA INFORMATION:", "\n\n")
   cat("              (Number of observed individuals in community 1)   n1  = ", x$n1, "\n")
   cat("              (Number of observed individuals in community 2)   n2  = ", x$n2, "\n")

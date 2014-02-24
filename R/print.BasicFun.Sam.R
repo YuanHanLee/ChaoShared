@@ -1,5 +1,5 @@
 print.BasicFun.Sam <-
-function(x) {
+function(x, ...) {
   cat("(1)  BASIC DATA INFORMATION:", "\n\n")
   cat("                      (Number of samples from community 1)   t1  = ", x$t1, "\n")
   cat("                      (Number of samples from community 2)   t2  = ", x$t2, "\n")
