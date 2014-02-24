@@ -1,7 +1,5 @@
 logCI <-
-function(y1, y2, est, se, conf) {
-  x1 <- y1[-1]
-  x2 <- y2[-1]
+function(x1, x2, est, se, conf) {
   D12 <- sum(x1 > 0 & x2 > 0)
   t <- est - D12
   z <- qnorm((1-conf)/2, lower.tail=F)

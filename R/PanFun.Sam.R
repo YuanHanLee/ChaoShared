@@ -11,7 +11,7 @@ function(y1, y2, conf=0.95) {
   } else {
     se <- VarEstFun.Sam(y1, y2, diffFun=diff_Pan, FunName=PanEstFun.Sam)
   }
-  CI <- logCI(y1, y2, est, se, conf)
+  CI <- logCI.Sam(y1, y2, est, se, conf)
   out <- matrix(c(est, se, CI), nrow = 1)
   rownames(out) <- c("Lower-bound")
   colnames(out) <- c("Estimator", "Est_s.e.",
