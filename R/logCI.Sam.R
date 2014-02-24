@@ -1,4 +1,4 @@
-logCI <-
+logCI.Sam <-
   function(y1, y2, est, se, conf) {
     x1 <- y1[-1]
     x2 <- y2[-1]
